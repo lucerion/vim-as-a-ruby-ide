@@ -1,5 +1,5 @@
-Plugin 'airblade/vim-rooter'
 Plugin 'scrooloose/nerdtree'
+Plugin 'airblade/vim-rooter'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'mileszs/ack.vim'
 Plugin 'majutsushi/tagbar'
@@ -42,4 +42,3 @@ Plugin 'bogado/file-line'
 Plugin 'MarcWeber/vim-addon-mw-utils' " snipmate
 Plugin 'tomtom/tlib_vim'              " snipmate
 Plugin 'edsono/vim-matchit'           " vim-ruby-refactoring
-Plugin 'lucerion/vim-buffr'           " vim-extract
