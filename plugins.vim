@@ -1,6 +1,5 @@
 " Explorer
 Plugin 'scrooloose/nerdtree'
-Plugin 'airblade/vim-rooter'
 Plugin 'majutsushi/tagbar'
 
 " Search/grep
@@ -44,6 +43,7 @@ Plugin 'rhysd/committia.vim'
 Plugin 'int3/vim-extradite'
 
 " Tools
+Plugin 'airblade/vim-rooter'
 Plugin 'tpope/vim-commentary'
 Plugin 'Raimondi/delimitMate'
 Plugin 'sickill/vim-pasta'
