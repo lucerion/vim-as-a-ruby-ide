@@ -1,4 +1,3 @@
-Plugin 'VundleVim/Vundle.vim'
 Plugin 'airblade/vim-rooter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ctrlpvim/ctrlp.vim'
