@@ -57,8 +57,13 @@ Plugin 'bogado/file-line'
 
 " Refactoring tools
 Plugin 'ecomba/vim-ruby-refactoring'
+Plugin 'chrisbra/NrrwRgn'
+Plugin 'lucerion/vim-extract'
+Plugin 'pelodelfuego/vim-swoop'
+Plugin 'osyo-manga/vim-over'
 
 " Dependencies
 Plugin 'MarcWeber/vim-addon-mw-utils' " snipmate
 Plugin 'tomtom/tlib_vim'              " snipmate
 Plugin 'edsono/vim-matchit'           " vim-ruby-refactoring
+Plugin 'lucerion/vim-buffr'           " vim-extract
