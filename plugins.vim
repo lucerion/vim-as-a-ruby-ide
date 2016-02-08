@@ -23,8 +23,10 @@ Plugin 'tpope/vim-rake'
 Plugin 'tpope/vim-bundler'
 Plugin 'tpope/vim-rvm'
 Plugin 'tpope/vim-rbenv'
-Plugin 'janko-m/vim-test'
 Plugin 'ngmy/vim-rubocop'
+
+" Tests
+Plugin 'janko-m/vim-test'
 
 " Additional syntaxes and languages
 Plugin 'pangloss/vim-javascript'
