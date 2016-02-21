@@ -2,9 +2,13 @@
 Plugin 'scrooloose/nerdtree'
 Plugin 'majutsushi/tagbar'
 
-" Search/grep
+" Find/grep
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'mileszs/ack.vim'
+
+" Search/replace
+Plugin 'pelodelfuego/vim-swoop'
+Plugin 'osyo-manga/vim-over'
 
 " Syntax checker
 Plugin 'scrooloose/syntastic'
@@ -61,8 +65,6 @@ Plugin 'bogado/file-line'
 Plugin 'ecomba/vim-ruby-refactoring'
 Plugin 'chrisbra/NrrwRgn'
 Plugin 'lucerion/vim-extract'
-Plugin 'pelodelfuego/vim-swoop'
-Plugin 'osyo-manga/vim-over'
 
 " Dependencies
 Plugin 'MarcWeber/vim-addon-mw-utils' " snipmate
