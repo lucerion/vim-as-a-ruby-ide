@@ -1,12 +1,16 @@
 " Explorer
 Plugin 'scrooloose/nerdtree'
+
+" File outline
 Plugin 'majutsushi/tagbar'
 
-" Find/grep
+" Fuzzy search
 Plugin 'ctrlpvim/ctrlp.vim'
+
+" Find / grep
 Plugin 'mileszs/ack.vim'
 
-" Search/replace
+" Find and replace
 Plugin 'pelodelfuego/vim-swoop'
 Plugin 'osyo-manga/vim-over'
 
