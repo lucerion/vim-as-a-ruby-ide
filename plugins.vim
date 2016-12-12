@@ -1,16 +1,17 @@
-" Explorer
+" File explorer
 Plugin 'scrooloose/nerdtree'
 
-" File outline
+" Class outline viewer
 Plugin 'majutsushi/tagbar'
 
 " Fuzzy search
 Plugin 'ctrlpvim/ctrlp.vim'
 
-" Find / grep
+" Grep
 Plugin 'mileszs/ack.vim'
 
 " Find and replace
+Plugin 'brooth/far.vim'
 Plugin 'pelodelfuego/vim-swoop'
 Plugin 'osyo-manga/vim-over'
 
@@ -19,6 +20,8 @@ Plugin 'scrooloose/syntastic'
 
 " Autocompletion
 Plugin 'AutoComplPop'
+Plugin 'cmdline-completion'
+Plugin 'tpope/vim-endwise'
 
 " Snippets
 Plugin 'garbas/vim-snipmate'
@@ -36,7 +39,7 @@ Plugin 'ngmy/vim-rubocop'
 " Tests
 Plugin 'janko-m/vim-test'
 
-" Additional syntaxes and languages
+" Additional syntaxes and markup/programming languages
 Plugin 'pangloss/vim-javascript'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'groenewege/vim-less'
@@ -52,17 +55,17 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'rhysd/committia.vim'
 Plugin 'int3/vim-extradite'
 
-" Tools
+" Other
 Plugin 'airblade/vim-rooter'
-Plugin 'tpope/vim-commentary'
+Plugin 'tyru/caw.vim'
 Plugin 'Raimondi/delimitMate'
 Plugin 'sickill/vim-pasta'
-Plugin 'tpope/vim-endwise'
 Plugin 'AndrewRadev/splitjoin.vim'
 Plugin 'ck3g/vim-change-hash-syntax'
 Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'kshenoy/vim-signature'
 Plugin 'mkitt/tabline.vim'
+Plugin 'google/vim-searchindex'
 Plugin 'bogado/file-line'
 
 " Refactoring tools
