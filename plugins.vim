@@ -28,7 +28,6 @@ Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 
 " Ruby
-Plugin 'vim-ruby/vim-ruby'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-rake'
 Plugin 'tpope/vim-bundler'
@@ -40,14 +39,9 @@ Plugin 'ngmy/vim-rubocop'
 Plugin 'janko-m/vim-test'
 
 " Additional syntaxes and markup/programming languages
-Plugin 'pangloss/vim-javascript'
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'groenewege/vim-less'
-Plugin 'slim-template/vim-slim'
-Plugin 'tpope/vim-haml'
+Plugin 'sheerun/vim-polyglot'
 Plugin 'mattn/emmet-vim'
 Plugin 'gregsexton/MatchTag'
-Plugin 'othree/html5.vim'
 
 " Git
 Plugin 'airblade/vim-gitgutter'
