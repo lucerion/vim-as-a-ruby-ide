@@ -19,7 +19,7 @@ Plugin 'osyo-manga/vim-over'
 Plugin 'scrooloose/syntastic'
 
 " Autocompletion
-Plugin 'AutoComplPop'
+Plugin 'othree/vim-autocomplpop'
 Plugin 'cmdline-completion'
 Plugin 'tpope/vim-endwise'
 
@@ -70,5 +70,6 @@ Plugin 'lucerion/vim-extract'
 " Dependencies
 Plugin 'MarcWeber/vim-addon-mw-utils' " snipmate
 Plugin 'tomtom/tlib_vim'              " snipmate
+Plugin 'l9'                           " vim-autocomplpop
 Plugin 'edsono/vim-matchit'           " vim-ruby-refactoring
 Plugin 'lucerion/vim-buffr'           " vim-extract
