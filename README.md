@@ -95,22 +95,22 @@ Plugins asset for rubyists
 
 1. Install [Vundle](https://github.com/VundleVim/Vundle.vim)
 
-2. Clone `plugins.vim` to the vim config directory:
+2. Clone repository to the vim config directory:
 
-        git clone https://github.com/lucerion/vim-as-a-ruby-ide.git ~/.vim/bundle/vim-as-a-ruby-ide
+        git clone https://github.com/lucerion/vim-as-a-ruby-ide.git ~/.vim/plugins
 
-3. Add `source ~/.vim/bundle/vim-as-a-ruby-ide/plugins.vim` line between `call vundle#begin()` and `call vundle#end()`
+3. Add `source ~/.vim/plugins/vundle.vim` line between `call vundle#begin()` and `call vundle#end()`
 
 4. Run `:PluginInstall` command
 
 
 ## Update
 
-1. Go to the vim config directory
+1. Go to the `plugins` directory
 
-        cd ~/.vim/bundle/vim-as-a-ruby-ide
+        cd ~/.vim/plugins
 
-* Pull last changes from `master` branch
+2. Pull changes from `master` branch
 
         git pull origin/master
 
