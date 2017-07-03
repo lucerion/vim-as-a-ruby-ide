@@ -91,28 +91,36 @@ Plugins asset for rubyists
 
 ## Install
 
+**[Vundle](https://github.com/VundleVim/Vundle.vim)**
+
+1. Copy plugins file to the vim config directory:
+
+        curl -fLo ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/vundle.vim
+
+2. Add `source ~/.vim/plugins.vim` line between `call vundle#begin()` and `call vundle#end()`
+
+3. Run `:PluginInstall` command
+
+**[Plug](https://github.com/junegunn/vim-plug)**
+
+1. Copy plugins file to the vim config directory:
+
+        curl -fLo ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/plug.vim
+
+2. Add `source ~/.vim/plugins.vim` line between `call plug#begin()` and `plug#end()`
+
+3. Run `:PlugInstall` command
+
+
+## Update asset
+
 **Vundle**
 
-1. Install [Vundle](https://github.com/VundleVim/Vundle.vim)
+      curl -fLo ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/vundle.vim
 
-2. Clone repository to the vim config directory:
+**Plug**
 
-        git clone https://github.com/lucerion/vim-as-a-ruby-ide.git ~/.vim/plugins
-
-3. Add `source ~/.vim/plugins/vundle.vim` line between `call vundle#begin()` and `call vundle#end()`
-
-4. Run `:PluginInstall` command
-
-
-## Update
-
-1. Go to the `plugins` directory
-
-        cd ~/.vim/plugins
-
-2. Pull changes from `master` branch
-
-        git pull origin/master
+      curl -fLo ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/plug.vim
 
 
 ## Dependencies
