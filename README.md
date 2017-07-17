@@ -24,8 +24,6 @@ Plugins asset for rubyists
 **Find and replace**
 
 * [far.vim](https://github.com/brooth/far.vim)
-* [vim-swoop](https://github.com/pelodelfuego/vim-swoop)
-* [vim-over](https://github.com/osyo-manga/vim-over)
 
 **Syntax checker**
 

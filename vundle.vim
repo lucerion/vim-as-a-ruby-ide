@@ -12,8 +12,6 @@ Plugin 'mileszs/ack.vim'
 
 " Find and replace
 Plugin 'brooth/far.vim'
-Plugin 'pelodelfuego/vim-swoop'
-Plugin 'osyo-manga/vim-over'
 
 " Syntax checker
 Plugin 'scrooloose/syntastic'
