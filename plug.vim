@@ -12,8 +12,6 @@ Plug 'mileszs/ack.vim'
 
 " Find and replace
 Plug 'brooth/far.vim'
-Plug 'pelodelfuego/vim-swoop'
-Plug 'osyo-manga/vim-over'
 
 " Syntax checker
 Plug 'scrooloose/syntastic'
