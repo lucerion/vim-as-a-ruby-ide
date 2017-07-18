@@ -93,7 +93,7 @@ Plugins asset for rubyists
 
 1. Copy plugins file to the vim config directory:
 
-        curl -fLo ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/vundle.vim
+        curl -o ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/vundle.vim
 
 2. Add `source ~/.vim/plugins.vim` line between `call vundle#begin()` and `call vundle#end()`
 
@@ -103,7 +103,7 @@ Plugins asset for rubyists
 
 1. Copy plugins file to the vim config directory:
 
-        curl -fLo ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/plug.vim
+        curl -o ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/plug.vim
 
 2. Add `source ~/.vim/plugins.vim` line between `call plug#begin()` and `plug#end()`
 
@@ -114,11 +114,11 @@ Plugins asset for rubyists
 
 **Vundle**
 
-      curl -fLo ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/vundle.vim
+      curl -o ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/vundle.vim
 
 **Plug**
 
-      curl -fLo ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/plug.vim
+      curl -o ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/plug.vim
 
 
 ## Dependencies
