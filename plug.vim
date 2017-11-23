@@ -27,8 +27,8 @@ Plug 'honza/vim-snippets'
 
 " Ruby
 Plug 'tpope/vim-rails', { 'for': ['ruby', 'eruby', 'haml', 'slim'] }
-Plug 'tpope/vim-rake', { 'for': 'ruby' }
-Plug 'tpope/vim-bundler', { 'for': 'ruby' }
+Plug 'tpope/vim-rake'
+Plug 'tpope/vim-bundler'
 Plug 'tpope/vim-rvm'
 Plug 'tpope/vim-rbenv'
 Plug 'ngmy/vim-rubocop', { 'for': 'ruby' }
@@ -38,8 +38,8 @@ Plug 'janko-m/vim-test'
 
 " Additional syntaxes and markup/programming languages
 Plug 'sheerun/vim-polyglot'
-Plug 'mattn/emmet-vim', { 'for': 'html' }
-Plug 'gregsexton/MatchTag', { 'for': 'html' }
+Plug 'mattn/emmet-vim', { 'for': ['html', 'xml', 'eruby'] }
+Plug 'gregsexton/MatchTag', { 'for': ['html', 'xml', 'eruby'] }
 
 " Git
 Plug 'airblade/vim-gitgutter'
