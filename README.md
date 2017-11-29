@@ -99,6 +99,14 @@ Plugins asset for rubyists
 
 3. Run `:PluginInstall` command
 
+**[Pathogen](https://github.com/tpope/vim-pathogen)**
+
+1. Copy setup script:
+
+        curl -o pathogen.sh https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/pathogen.sh
+
+2. Run `./pathogen.sh`
+
 **[Plug](https://github.com/junegunn/vim-plug)**
 
 1. Copy plugins file to the vim config directory:
@@ -114,14 +122,22 @@ Plugins asset for rubyists
 
 **Vundle**
 
+1. Copy last asset version:
+
       curl -o ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/vundle.vim
+
+2. Run `:PluginUpdate`
 
 **Plug**
 
+1. Copy last asset version:
+
       curl -o ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/plug.vim
+
+2. Run `:PlugUpdate`
 
 
 ## Dependencies
 
 * [exuberant-ctags](http://ctags.sourceforge.net)
-* [ack](http://beyondgrep.com) or [ag](http://betterthanack.com)
+* [ack](http://beyondgrep.com) or [ag](http://betterthanack.com) or [grep](https://www.gnu.org/savannah-checkouts/gnu/grep)

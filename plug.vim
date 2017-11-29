@@ -69,5 +69,5 @@ Plug 'lucerion/vim-extract'
 Plug 'MarcWeber/vim-addon-mw-utils' " snipmate
 Plug 'tomtom/tlib_vim'              " snipmate
 Plug 'l9'                           " vim-autocomplpop
-Plug 'edsono/vim-matchit'           " vim-ruby-refactoring
+Plug 'vim-scripts/matchit.zip'      " vim-ruby-refactoring
 Plug 'lucerion/vim-buffr'           " vim-extract
