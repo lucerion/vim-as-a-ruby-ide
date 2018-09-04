@@ -139,5 +139,5 @@ Plugins asset for rubyists
 
 ## Dependencies
 
-* [exuberant-ctags](http://ctags.sourceforge.net)
+* [universal-ctags](https://ctags.io) or [exuberant-ctags](http://ctags.sourceforge.net)
 * [ack](http://beyondgrep.com) or [ag](http://betterthanack.com) or [grep](https://www.gnu.org/savannah-checkouts/gnu/grep)
