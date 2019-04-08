@@ -38,8 +38,6 @@ Plugin 'janko-m/vim-test'
 
 " Additional syntaxes and markup/programming languages
 Plugin 'sheerun/vim-polyglot'
-Plugin 'mattn/emmet-vim'
-Plugin 'gregsexton/MatchTag'
 
 " Git
 Plugin 'airblade/vim-gitgutter'
@@ -59,6 +57,8 @@ Plugin 'kshenoy/vim-signature'
 Plugin 'mkitt/tabline.vim'
 Plugin 'google/vim-searchindex'
 Plugin 'bogado/file-line'
+Plugin 'mattn/emmet-vim'
+Plugin 'gregsexton/MatchTag'
 
 " Refactoring tools
 Plugin 'ecomba/vim-ruby-refactoring'
