@@ -42,8 +42,6 @@ git clone https://github.com/janko-m/vim-test
 
 # Additional syntaxes and markup/programming languages
 git clone https://github.com/sheerun/vim-polyglot
-git clone https://github.com/mattn/emmet-vim
-git clone https://github.com/gregsexton/MatchTag
 
 # Git
 git clone https://github.com/airblade/vim-gitgutter
@@ -63,6 +61,8 @@ git clone https://github.com/kshenoy/vim-signature
 git clone https://github.com/mkitt/tabline.vim
 git clone https://github.com/google/vim-searchindex
 git clone https://github.com/bogado/file-line
+git clone https://github.com/mattn/emmet-vim
+git clone https://github.com/gregsexton/MatchTag
 
 # Refactoring tools
 git clone https://github.com/ecomba/vim-ruby-refactoring

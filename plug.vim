@@ -38,8 +38,6 @@ Plug 'janko-m/vim-test'
 
 " Additional syntaxes and markup/programming languages
 Plug 'sheerun/vim-polyglot'
-Plug 'mattn/emmet-vim', { 'for': ['html', 'xml', 'eruby'] }
-Plug 'gregsexton/MatchTag', { 'for': ['html', 'xml', 'eruby'] }
 
 " Git
 Plug 'airblade/vim-gitgutter'
@@ -59,6 +57,8 @@ Plug 'kshenoy/vim-signature'
 Plug 'mkitt/tabline.vim'
 Plug 'google/vim-searchindex'
 Plug 'bogado/file-line'
+Plug 'mattn/emmet-vim', { 'for': ['html', 'xml', 'eruby'] }
+Plug 'gregsexton/MatchTag', { 'for': ['html', 'xml', 'eruby'] }
 
 " Refactoring tools
 Plug 'ecomba/vim-ruby-refactoring', { 'for': 'ruby' }
