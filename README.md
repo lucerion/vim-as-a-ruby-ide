@@ -166,5 +166,5 @@ Plugins asset for rubyists
 
 ## Dependencies
 
-* [universal-ctags](https://ctags.io) or [exuberant-ctags](http://ctags.sourceforge.net)
-* [ack](http://beyondgrep.com) or [ag](http://betterthanack.com) or [grep](https://www.gnu.org/savannah-checkouts/gnu/grep)
+* [universal-ctags](https://ctags.io) or [exuberant-ctags](http://ctags.sourceforge.net) (tagbar plugin)
+* [ack](http://beyondgrep.com) or [ag](http://betterthanack.com) or [grep](https://www.gnu.org/savannah-checkouts/gnu/grep) (ack.vim plugin)
