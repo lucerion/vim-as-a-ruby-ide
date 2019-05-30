@@ -3,6 +3,17 @@
 Plugins asset for rubyists
 
 
+## Contents
+
+> [Plugins](#plugins)
+>
+> [Install](#install)
+>
+> [Update asset](#update-asset)
+>
+> [Dependencies](#dependencies)
+
+
 ## Plugins
 
 **File explorer**
@@ -85,6 +96,7 @@ Plugins asset for rubyists
 * [file-line](https://github.com/bogado/file-line) - enabling opening a file in a given line
 * [emmet-vim](https://github.com/mattn/emmet-vim) - provides support for expanding abbreviations similar to [emmet](http://emmet.io)
 * [MatchTag](https://github.com/gregsexton/MatchTag) - highlights the matching HTML tag when the cursor is positioned on a tag
+
 
 ## Install
 
