@@ -128,6 +128,14 @@ Plugins asset for rubyists
 
 3. Run `:PlugInstall` command
 
+**Vim packages** (vim 8, neovim)
+
+1. Copy setup script:
+
+        curl -o vim-packages.sh https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/vim-packages.sh
+
+2. Run `./vim-packages.sh`
+
 
 ## Update
 
