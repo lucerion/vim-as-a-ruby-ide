@@ -102,7 +102,7 @@ Plugins asset for rubyists
 
 **[Vundle](https://github.com/VundleVim/Vundle.vim)**
 
-1. Copy plugins file to the vim config directory:
+1. Copy plugins file to the vim config directory
 
         curl -o ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/vundle.vim
 
@@ -112,15 +112,19 @@ Plugins asset for rubyists
 
 **[Pathogen](https://github.com/tpope/vim-pathogen)**
 
-1. Copy setup script:
+1. Copy setup script
 
         curl -o pathogen.sh https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/pathogen.sh
+
+2. Make script executable
+
+        chmod 766 pathogen.sh
 
 2. Run `./pathogen.sh`
 
 **[Plug](https://github.com/junegunn/vim-plug)**
 
-1. Copy plugins file to the vim config directory:
+1. Copy plugins file to the vim config directory
 
         curl -o ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/plug.vim
 
@@ -130,9 +134,13 @@ Plugins asset for rubyists
 
 **Vim packages** (vim 8, neovim)
 
-1. Copy setup script:
+1. Copy setup script
 
         curl -o vim-packages.sh https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/vim-packages.sh
+
+3. Make script executable
+
+        chmod 766 vim-packages.sh
 
 2. Run `./vim-packages.sh`
 
@@ -141,7 +149,7 @@ Plugins asset for rubyists
 
 **Vundle**
 
-1. Copy last asset version:
+1. Copy last asset version
 
         curl -o ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/vundle.vim
 
@@ -149,7 +157,7 @@ Plugins asset for rubyists
 
 **Plug**
 
-1. Copy last asset version:
+1. Copy last asset version
 
         curl -o ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/plug.vim
 
