@@ -9,7 +9,7 @@ Plugins asset for rubyists
 >
 > [Install](#install)
 >
-> [Update asset](#update-asset)
+> [Update](#update)
 >
 > [Dependencies](#dependencies)
 
@@ -129,13 +129,13 @@ Plugins asset for rubyists
 3. Run `:PlugInstall` command
 
 
-## Update asset
+## Update
 
 **Vundle**
 
 1. Copy last asset version:
 
-      curl -o ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/vundle.vim
+        curl -o ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/vundle.vim
 
 2. Run `:PluginUpdate`
 
@@ -143,7 +143,7 @@ Plugins asset for rubyists
 
 1. Copy last asset version:
 
-      curl -o ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/plug.vim
+        curl -o ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/plug.vim
 
 2. Run `:PlugUpdate`
 
