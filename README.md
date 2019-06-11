@@ -112,13 +112,13 @@ Plugins asset for rubyists
 
 **[Pathogen](https://github.com/tpope/vim-pathogen)**
 
-1. Copy setup script
+1. Copy setup scripts
 
-        curl -o pathogen.sh https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/pathogen.sh
+        curl -o pathogen.sh https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/pathogen.sh -o plugins.sh https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/plugins.sh
 
-2. Make script executable
+2. Make scripts executable
 
-        chmod 766 pathogen.sh
+        chmod 766 pathogen.sh plugins.sh
 
 2. Run `./pathogen.sh`
 
@@ -134,13 +134,13 @@ Plugins asset for rubyists
 
 **Vim packages** (vim 8, neovim)
 
-1. Copy setup script
+1. Copy setup scripts
 
-        curl -o vim-packages.sh https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/vim-packages.sh
+        curl -o vim-packages.sh https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/vim-packages.sh -o plugins.sh https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/plugins.sh
 
-3. Make script executable
+3. Make scripts executable
 
-        chmod 766 vim-packages.sh
+        chmod 766 vim-packages.sh plugins.sh
 
 2. Run `./vim-packages.sh`
 
