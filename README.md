@@ -2,9 +2,6 @@
 
 Plugins asset for rubyists
 
-
-## Contents
-
 > [Plugins](#plugins)
 >
 > [Install](#install)
@@ -98,9 +95,9 @@ Plugins asset for rubyists
 * [MatchTag](https://github.com/gregsexton/MatchTag) - highlights the matching HTML tag when the cursor is positioned on a tag
 
 
-## Install
+## Installation
 
-**[Vundle](https://github.com/VundleVim/Vundle.vim)**
+### [Vundle](https://github.com/VundleVim/Vundle.vim)
 
 1. Copy plugins file to the vim config directory
 
@@ -110,7 +107,7 @@ Plugins asset for rubyists
 
 3. Run `:PluginInstall` command
 
-**[Pathogen](https://github.com/tpope/vim-pathogen)**
+### [Pathogen](https://github.com/tpope/vim-pathogen)
 
 1. Copy setup scripts
 
@@ -122,7 +119,7 @@ Plugins asset for rubyists
 
 2. Run `./pathogen.sh`
 
-**[Plug](https://github.com/junegunn/vim-plug)**
+## [Plug](https://github.com/junegunn/vim-plug)
 
 1. Copy plugins file to the vim config directory
 
@@ -132,7 +129,7 @@ Plugins asset for rubyists
 
 3. Run `:PlugInstall` command
 
-**Vim packages** (vim 8, neovim)
+## Vim packages (vim 8, neovim)
 
 1. Copy setup scripts
 
@@ -147,7 +144,7 @@ Plugins asset for rubyists
 
 ## Update
 
-**Vundle**
+### Vundle
 
 1. Copy last asset version
 
@@ -155,7 +152,7 @@ Plugins asset for rubyists
 
 2. Run `:PluginUpdate`
 
-**Plug**
+### Plug
 
 1. Copy last asset version
 
