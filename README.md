@@ -2,13 +2,10 @@
 
 Plugins asset for rubyists
 
-> [Plugins](#plugins)
->
-> [Install](#install)
->
-> [Update](#update)
->
-> [Dependencies](#dependencies)
+* [Plugins](#plugins)
+* [Installation](#installation)
+* [Update](#update)
+* [Dependencies](#dependencies)
 
 
 ## Plugins
@@ -105,7 +102,7 @@ Plugins asset for rubyists
 
 2. Add `source ~/.vim/plugins.vim` line between `call vundle#begin()` and `call vundle#end()`
 
-3. Run `:PluginInstall` command
+3. Open vim and run `:PluginInstall` command
 
 ### [Pathogen](https://github.com/tpope/vim-pathogen)
 
@@ -119,7 +116,7 @@ Plugins asset for rubyists
 
 2. Run `./pathogen.sh`
 
-## [Plug](https://github.com/junegunn/vim-plug)
+### [Plug](https://github.com/junegunn/vim-plug)
 
 1. Copy plugins file to the vim config directory
 
@@ -127,9 +124,9 @@ Plugins asset for rubyists
 
 2. Add `source ~/.vim/plugins.vim` line between `call plug#begin()` and `plug#end()`
 
-3. Run `:PlugInstall` command
+3. Open vim and run `:PlugInstall` command
 
-## Vim packages (vim 8, neovim)
+### Vim packages (vim 8, neovim)
 
 1. Copy setup scripts
 
@@ -150,7 +147,7 @@ Plugins asset for rubyists
 
         curl -o ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/vundle.vim
 
-2. Run `:PluginUpdate`
+2. Open vim and run `:PluginUpdate` command
 
 ### Plug
 
@@ -158,7 +155,7 @@ Plugins asset for rubyists
 
         curl -o ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/plug.vim
 
-2. Run `:PlugUpdate`
+2. Open vim and run `:PlugUpdate`
 
 
 ## Dependencies
