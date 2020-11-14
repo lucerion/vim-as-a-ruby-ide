@@ -18,7 +18,7 @@ Plug 'scrooloose/syntastic'
 
 " Autocompletion
 Plug 'othree/vim-autocomplpop'
-Plug 'cmdline-completion'
+Plug 'vim-scripts/cmdline-completion'
 Plug 'tpope/vim-endwise'
 
 " Snippets
@@ -68,6 +68,6 @@ Plug 'lucerion/vim-extract'
 " Dependencies
 Plug 'MarcWeber/vim-addon-mw-utils' " snipmate
 Plug 'tomtom/tlib_vim'              " snipmate
-Plug 'l9'                           " vim-autocomplpop
+Plug 'vim-scripts/l9'                           " vim-autocomplpop
 Plug 'vim-scripts/matchit.zip'      " vim-ruby-refactoring
 Plug 'lucerion/vim-buffr'           " vim-extract
