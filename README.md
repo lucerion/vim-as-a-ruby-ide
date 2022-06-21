@@ -94,9 +94,23 @@ Plugins asset for rubyists
 
 ## Installation
 
+### Vim packages (Vim 8, neovim)
+
+        curl -sS https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/vim-packages.sh | bash
+
+### [Plug](https://github.com/junegunn/vim-plug)
+
+1. Copy plugins file to the Vim config directory
+
+        curl -o ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/plug.vim
+
+2. Add `source ~/.vim/plugins.vim` line between `call plug#begin()` and `call plug#end()`
+
+3. Open Vim and run `:PlugInstall` command
+
 ### [Vundle](https://github.com/VundleVim/Vundle.vim)
 
-1. Copy plugins file to the vim config directory
+1. Copy plugins file to the Vim config directory
 
         curl -o ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/vundle.vim
 
@@ -108,22 +122,26 @@ Plugins asset for rubyists
 
         curl -sS https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/pathogen.sh | bash
 
-### [Plug](https://github.com/junegunn/vim-plug)
+### [dein.vim](https://github.com/Shougo/dein.vim)
 
-1. Copy plugins file to the vim config directory
+1. Copy plugins file to the Vim config directory
 
-        curl -o ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/plug.vim
+        curl -o ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/dein.vim
 
-2. Add `source ~/.vim/plugins.vim` line between `call plug#begin()` and `plug#end()`
+2. Add `source ~/.vim/plugins.vim` line between `call dein#begin()` and `call dein#end()`
 
-3. Open Vim and run `:PlugInstall` command
-
-### Vim packages (Vim 8, neovim)
-
-        curl -sS https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/vim-packages.sh | bash
+3. Open Vim and run `:call dein#install()` command
 
 
 ## Update
+
+### Plug
+
+1. Copy last asset version
+
+        curl -o ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/plug.vim
+
+2. Open Vim and run `:PlugUpdate`
 
 ### Vundle
 
@@ -133,13 +151,13 @@ Plugins asset for rubyists
 
 2. Open Vim and run `:PluginUpdate` command
 
-### Plug
+### dein.vim
 
 1. Copy last asset version
 
-        curl -o ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/plug.vim
+        curl -o ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/dein.vim
 
-2. Open Vim and run `:PlugUpdate`
+2. Open Vim and run `:call dein#update()` command
 
 
 ## Dependencies
