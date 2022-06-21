@@ -102,19 +102,11 @@ Plugins asset for rubyists
 
 2. Add `source ~/.vim/plugins.vim` line between `call vundle#begin()` and `call vundle#end()`
 
-3. Open vim and run `:PluginInstall` command
+3. Open Vim and run `:PluginInstall` command
 
 ### [Pathogen](https://github.com/tpope/vim-pathogen)
 
-1. Copy setup scripts
-
-        curl -o pathogen.sh https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/pathogen.sh -o plugins.sh https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/plugins.sh
-
-2. Make scripts executable
-
-        chmod 766 pathogen.sh plugins.sh
-
-2. Run `./pathogen.sh`
+        curl -sS https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/pathogen.sh | bash
 
 ### [Plug](https://github.com/junegunn/vim-plug)
 
@@ -124,19 +116,11 @@ Plugins asset for rubyists
 
 2. Add `source ~/.vim/plugins.vim` line between `call plug#begin()` and `plug#end()`
 
-3. Open vim and run `:PlugInstall` command
+3. Open Vim and run `:PlugInstall` command
 
-### Vim packages (vim 8, neovim)
+### Vim packages (Vim 8, neovim)
 
-1. Copy setup scripts
-
-        curl -o vim-packages.sh https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/vim-packages.sh -o plugins.sh https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/plugins.sh
-
-3. Make scripts executable
-
-        chmod 766 vim-packages.sh plugins.sh
-
-2. Run `./vim-packages.sh`
+        curl -sS https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/vim-packages.sh | bash
 
 
 ## Update
@@ -147,7 +131,7 @@ Plugins asset for rubyists
 
         curl -o ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/vundle.vim
 
-2. Open vim and run `:PluginUpdate` command
+2. Open Vim and run `:PluginUpdate` command
 
 ### Plug
 
@@ -155,7 +139,7 @@ Plugins asset for rubyists
 
         curl -o ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/plug.vim
 
-2. Open vim and run `:PlugUpdate`
+2. Open Vim and run `:PlugUpdate`
 
 
 ## Dependencies
