@@ -132,6 +132,16 @@ Plugins asset for rubyists
 
 3. Open Vim and run `:call dein#install()` command
 
+### [NeoBundle](https://github.com/Shougo/neobundle.vim)
+
+1. Copy plugins file to the Vim config directory
+
+        curl -o ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/neobundle.vim
+
+2. Add `source ~/.vim/plugins.vim` line between `call neobundle#begin()` and `call neobundle#end()`
+
+3. Open Vim and run `:NeoBundleInstall` command
+
 
 ## Update
 
@@ -158,6 +168,14 @@ Plugins asset for rubyists
         curl -o ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/dein.vim
 
 2. Open Vim and run `:call dein#update()` command
+
+### NeoBundle
+
+1. Copy last asset version
+
+        curl -o ~/.vim/plugins.vim https://raw.githubusercontent.com/lucerion/vim-as-a-ruby-ide/master/neobundle.vim
+
+2. Open Vim and run `:NeoBundleUpdate` command
 
 
 ## Dependencies
