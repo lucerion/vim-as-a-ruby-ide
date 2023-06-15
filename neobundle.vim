@@ -18,7 +18,7 @@ NeoBundle 'scrooloose/syntastic'
 
 " Autocompletion
 NeoBundle 'othree/vim-autocomplpop'
-NeoBundle 'cmdline-completion'
+NeoBundle 'vim-scripts/cmdline-completion'
 NeoBundle 'tpope/vim-endwise'
 
 " Snippets
@@ -68,6 +68,6 @@ NeoBundle 'lucerion/vim-extract'
 " Dependencies
 NeoBundle 'MarcWeber/vim-addon-mw-utils' " snipmate
 NeoBundle 'tomtom/tlib_vim'              " snipmate
-NeoBundle 'l9'                           " vim-autocomplpop
+NeoBundle 'vim-scripts/l9'                           " vim-autocomplpop
 NeoBundle 'vim-scripts/matchit.zip'      " vim-ruby-refactoring
 NeoBundle 'lucerion/vim-buffr'           " vim-extract
