@@ -18,7 +18,7 @@ git clone https://github.com/scrooloose/syntastic
 
 # Autocompletion
 git clone https://github.com/othree/vim-autocomplpop
-git clone https://github.com/cmdline-completion
+git clone https://github.com/vim-scripts/cmdline-completion
 git clone https://github.com/tpope/vim-endwise
 
 # Snippets
